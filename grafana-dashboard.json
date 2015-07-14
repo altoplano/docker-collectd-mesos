@@ -330,13 +330,13 @@
               "target": "aliasByNode(maxSeries(collectd.*.mesos-master.gauge.master_tasks_staging), 4)"
             },
             {
-              "target": "aliasByNode(derivative(maxSeries(collectd.*.mesos-master.gauge.master_tasks_failed)), 4)"
+              "target": "aliasByNode(derivative(maxSeries(collectd.*.mesos-master.counter.master_tasks_failed)), 4)"
             },
             {
-              "target": "aliasByNode(derivative(maxSeries(collectd.*.mesos-master.gauge.master_tasks_lost)), 4)"
+              "target": "aliasByNode(derivative(maxSeries(collectd.*.mesos-master.counter.master_tasks_lost)), 4)"
             },
             {
-              "target": "aliasByNode(derivative(maxSeries(collectd.*.mesos-master.gauge.master_tasks_killed)), 4)"
+              "target": "aliasByNode(derivative(maxSeries(collectd.*.mesos-master.counter.master_tasks_killed)), 4)"
             }
           ],
           "aliasColors": {
